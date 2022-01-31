@@ -55,4 +55,6 @@ class MainController extends Controller
 
         return redirect('/')->with('success', 'Your Message was sent!');
     }
+
+    
 }
